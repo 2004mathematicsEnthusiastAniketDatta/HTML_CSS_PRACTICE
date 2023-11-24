@@ -133,3 +133,21 @@ font-style: italic;
     /* margin:2.5rem; */
     /* font-variant: small-caps; */
 } 
+@media screen and (min-width: 600px){
+#main {
+    width: 1000px;
+}
+
+#Footer {
+    font-size: 4rem;
+}
+}
+/* CSS for screens less than or equal to 600px */
+@media screen and (max-width: 600px) {
+    #main {
+        width: 100%;
+    }
+
+    #Footer {
+        font-size: 2rem;
+    }
